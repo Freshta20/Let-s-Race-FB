@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: green;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 130px;
+    margin-bottom: -150px;
+}
+
+.group-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    height: 200px;
+}
+
+#img-right {
+    padding-left: -10px;
+}
+
+#img-left {
+    padding-left: 300px;
+}
+
+.button {
+    background-color: white;
+    color: green;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+
+/* game style */
+
+header {
+    height: 200px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    border: 1px solid white;
+    height: 280px;
+}
+
+.game-title {
+    font-size: 70px;
+    text-align: center;
+}
+
+.game-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.game-image {
+    height: 100px;
+}
+
+
+#main {
+    height: 500px;
+    position: relative;
+}
+
+#cow {
+    height: 140px;
+    width: 100px;
+    position: absolute;
+    left: 1vw;
+    top: 60px;
+}
+
+#sheep {
+    height: 140px;
+    width: 100px;
+    position: absolute;
+    left: 1vw;
+    top: 250px;
+}
+
+.vl {
+    border-right: 2vw solid white;
+    height: 550px;
+    margin-right: 20vw;
+}
+
+@media screen and (min-width: 600px) {
+    .vl {
+        margin-right: 25vw;
+    }
+}
+
+
+/* game over  */
+
+h2 {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    padding-top: -300px;
+}
+
+#gameover-cow {
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
